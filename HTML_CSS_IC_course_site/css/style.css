@@ -1,0 +1,816 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.containerBottom,
+.yamaps_container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.second_heading,
+.thirst_heading,
+.submit_Button {
+  text-align: center;
+}
+
+.paragraph,
+.heading,
+.fourth_heading {
+  color: #1f3f68;
+}
+
+.top {
+  height: 768px;
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 64px;
+  width: 510px;
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+}
+
+.second_heading {
+  font-weight: 500;
+  font-size: 44px;
+}
+
+.footer_heading {
+  margin-top: 91px;
+  font-size: 36px;
+  max-width: 340px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.fourth_heading {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.input_Area {
+  border: 1px solid #356ead;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.submit_Button {
+  background: #5a98d0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.heading_paragraph {
+  width: 425px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  margin-top: 32px;
+}
+
+.header_button {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 15px 50px;
+  display: inline-block;
+  margin-top: 71px;
+}
+
+.header_content_menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header_content_texts {
+  padding-top: 107px;
+  flex-grow: 1;
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.header_content_menu_obj {
+  display: inline;
+}
+
+.what-we-do {
+  margin-top: 64px;
+}
+
+.what-we-do_heading {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.what-we-do_info_card {
+  display: flex;
+  flex-direction: column;
+  width: 359px;
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 44px 32px;
+  box-sizing: border-box;
+}
+
+.what_we_do_info_link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+  margin-top: 30px;
+}
+
+.paragraph_what-we-do {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+.what-we-do_img {
+  align-self: center;
+}
+
+.what-we-do_card_heading {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  margin-top: 51px;
+}
+
+.what-we-do_info {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finished_projects {
+  margin-top: 64px;
+}
+
+.finished_projects_heading {
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.finished_projects_paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  max-width: 75%;
+  margin: 32px auto 0px;
+}
+
+.fininshed_projects_images_shi {
+  margin-top: 64px;
+  position: relative;
+}
+
+.finished_projects_img {
+  width: 100%;
+}
+
+.paragraph_shi {
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+
+.finished_projects_images {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finished_projects_sparkliteapp,
+.finished_projects_carrapp {
+  position: relative;
+  flex-grow: 1;
+}
+
+.finished_projects_sparkliteapp {
+  margin-right: 32px;
+}
+
+.paragraph_fp_images {
+  position: absolute;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  top: 32px;
+  left: 32px;
+}
+
+.footer {
+  background-color: #316099;
+  margin-top: 112px;
+}
+
+.footer_content_fb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_button {
+  height: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #5a98d0;
+  padding: 15px 80px;
+  margin-top: 165px;
+}
+
+.paragraph_footer {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.hr {
+  margin-top: 96px;
+  opacity: 0.4;
+  border: 1px solid #ffffff;
+}
+
+.footer_content_fb_texts {
+  max-width: 495px;
+}
+
+.footer_content_contacts_list {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.footer_content_contacts_listcomp {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_content_info_rights_p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* CONTACTS */
+
+.header_content_texts {
+  margin-top: 48px;
+}
+
+.contacts_header_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts_header_content {
+  padding-top: 37px;
+}
+
+.contacts_heading_text {
+  margin-top: 47px;
+  background-image: url(../img/contacts_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 49px;
+}
+
+.contacts_heading {
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-top: 51px;
+  font-weight: 500;
+}
+
+.contacts_header_paragraph {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 16px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.contacts_container {
+  max-width: 940px;
+}
+
+.content {
+  margin-top: 57px;
+}
+
+.content_contacts {
+  margin-top: 78px;
+}
+
+.contacts_address_heading {
+  margin-top: 56px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  font-weight: 500;
+}
+
+.contacts_phone_heading,
+.contacts_os_heading {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.contacts_address_p {
+  max-width: 299px;
+}
+
+.contacts_address_p,
+.contacts_phone_list,
+.contacts_os_list {
+  margin-top: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+  color: #1F3F68;
+}
+
+.contacts_phone_list,
+.contacts_os_list {
+  padding-left: 20px;
+}
+
+.content_form {
+  max-width: 540px;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 56px;
+  box-sizing: border-box;
+  margin-bottom: 96px;
+}
+
+.contacts_form_heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+
+.contacts_list_element {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_form_label {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-top: 32px;
+}
+
+.input_Area {
+  padding: 21px 42px;
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  opacity: 0.2;
+  color: #1F3F68;
+}
+
+.input_Message {
+  max-height: 144px;
+}
+
+.contacts_form_label_name {
+  margin-top: 48px;
+}
+
+.submit_Button {
+  margin-top: 72px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 23px 183px;
+  border: none;
+}
+
+.yamaps_container {
+  max-width: 940px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .container {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .header_content_menu {
+    margin-top: 47px;
+  }
+
+  .header_content_texts {
+    background-position: right 280px;
+    background-size: 44%;
+  }
+
+  .what-we-do_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .what-we-do_info_card {
+    margin-bottom: 32px;
+  }
+
+  .finished_projects {
+    margin-top: 95px;
+  }
+
+  .paragraph_fp_images {
+    top: 20px;
+    left: 20px;
+  }
+
+  .footer_content_fb,
+  .footer_content_contacts {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+
+  .footer_heading {
+    margin-top: 47px;
+  }
+
+  .paragraph_footer {
+    max-width: 336px;
+  }
+
+  .footer_button {
+    padding: 4px 35px;
+  }
+
+  .hr {
+    margin-top: 64px;
+  }
+
+  .footer_content_contacts_list {
+    flex-direction: column;
+  }
+
+  .footer_content_contacts_list {
+    margin-top: 42px;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+
+  .footer_content_contacts_listcomp {
+    margin-top: 22px;
+    padding-left: 36px;
+  }
+
+  .contacts_header_content {
+    padding: 0;
+  }
+
+  .contacts_header_menu {
+    padding: 10px 32px 0 32px;
+  }
+
+  .contacts_header_paragraph {
+    max-width: 520px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .content_contacts {
+    margin-top: 64px;
+  }
+
+  .contacts_os_list {
+    margin-bottom: 64px;
+  }
+  
+  .yamaps_container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 667px) {
+  .top {
+    height: 100%;
+    min-height: 375px;
+  }
+
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .header_content_menu {
+    margin-top: 16px;
+  }
+
+  .heading {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  .heading_paragraph {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .header_content_texts {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+  }
+
+  .header_button {
+    padding: 5px 15px;
+    margin-top: 32px;
+    margin-bottom: 41px;
+  }
+
+  .what-we-do {
+    margin-top: 48px;
+  }
+
+  .what-we-do_heading {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: normal;
+  }
+
+  .what-we-do_info {
+    margin-top: 32px;
+  }
+
+  .what-we-do_info_card {
+    width: 100%;
+  }
+
+  .finished_projects {
+    margin-top: 64px;
+  }
+
+  .finished_projects_heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .finished_projects_paragraph {
+    text-align: center;
+    min-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .fininshed_projects_images_shi {
+    margin-top: 82px;
+  }
+
+  .what-we-do_info_card_last {
+    margin-bottom: 0;
+  }
+
+  .paragraph_shi {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+
+  .finished_projects_images {
+    margin-top: 16px;
+    flex-direction: column;
+  }
+
+  .finished_projects_sparkliteapp {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .paragraph_fp_images {
+    font-size: 16px;
+    line-height: 19px;
+    top: 26px;
+    left: 16px;
+  }
+
+  .footer_content_fb {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footer_heading {
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .paragraph_footer {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 343px;
+  }
+
+  .footer_button {
+    margin-top: 40px;
+  }
+
+  .hr {
+    margin-top: 41px;
+  }
+
+  .footer_content_contacts {
+    padding: 0;
+  }
+
+  .footer_content_contacts_list {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+  }
+
+  .footer_content_info_rights {
+    text-align: center;
+  }
+
+  .contacts_header_menu {
+    padding: 0;
+    padding-top: 18px;
+  }
+
+  .contacts_heading_text {
+    margin-top: 25px;
+  }
+
+  .contacts_heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .contacts_header_paragraph {
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 341px;
+  }
+
+  .content_contacts {
+    margin-top: 46px;
+  }
+
+  .contacts_address_heading {
+    margin-top: 64px;
+  }
+
+  .contacts_os_list {
+    margin-bottom: 32px;
+  }
+
+  .content_form {
+    max-width: 343px;
+    margin-bottom: 32px;
+    padding: 36px;
+  }
+
+  .contacts_form_heading {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .contacts_form_label {
+    font-size: 14px;
+  }
+
+  .input_Area {
+    padding: 13px 26px;
+    margin-top: 0;
+  }
+
+  .input_Message {
+    max-height: 92px;
+  }
+
+  .submit_Button {
+    margin-top: 46px;
+    padding: 15px 60px;
+    font-size: 16px;
+  }
+
+  .footer {
+    margin-top: 32px;
+  }
+}
